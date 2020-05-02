@@ -13,6 +13,8 @@ app.use(function (req, res, next) {
     next();
 });
 
+// This function returns the count of how many prime numbers
+// exist between 1 --> n
 var countPrimeNums = (n) => {
     var result = 0;
     for (var i = 1; i < n; i++) {
@@ -28,6 +30,7 @@ var countPrimeNums = (n) => {
     return result;
 }
 
+// root path
 app.get('/', (req, res) => {
     var n = parseInt(req.query.n);
     if (isNaN(n))
@@ -35,6 +38,8 @@ app.get('/', (req, res) => {
     res.status(200).send('Found ' + formatNum(countPrimeNums(n)) + ' prime numbers under ' + formatNum(n) + '\n');
 });
 
+// this path deliberately crashes the server so we could test the
+// auto heal capabilities of cloud foundry
 app.get('/crash', (req, res) => {
     setTimeout(function () {
         throw new Error('The app has crashed');
