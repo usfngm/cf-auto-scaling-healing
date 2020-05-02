@@ -37,6 +37,13 @@ app.get('/', (req, res) => {
     res.status(200).send('Found ' + formatNum(countPrimeNums(n)) + ' prime numbers under ' + formatNum(n) + '\n');
 });
 
+app.get('/crash', (req, res) => {
+    setTimeout(function () {
+        throw new Error('The app has crashed');
+    }, 10);
+    res.status(500).send();
+})
+
 // Error handlers
 app.use(function fourOhFourHandler(req, res) {
     res.status(404).send();
