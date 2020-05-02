@@ -1,0 +1,7 @@
+applications:
+- name: PrimeNumberCalculator
+  command: npm start
+  path: .
+  random-route: true
+  memory: 128M
+  instances: 1

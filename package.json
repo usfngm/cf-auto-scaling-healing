@@ -1,0 +1,25 @@
+{
+  "name": "cf-auto-scaling",
+  "version": "1.0.0",
+  "description": "This simple nodeJS server will be deployed on cloud foundry and will be load tested to showcase cloud foundry's auto-scaling capabilities",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usfngm/cf-auto-scaling.git"
+  },
+  "author": "Youssef Negm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usfngm/cf-auto-scaling/issues"
+  },
+  "homepage": "https://github.com/usfngm/cf-auto-scaling#readme",
+  "dependencies": {
+    "comma-number": "^2.0.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3"
+  }
+}
