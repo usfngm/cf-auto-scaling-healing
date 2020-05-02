@@ -30,10 +30,8 @@ var countPrimeNums = (n) => {
 
 app.get('/', (req, res) => {
     var n = parseInt(req.query.n);
-    if (isNaN(n)) {
-        res.status(400).send('Missing Params');
-        return;
-    }
+    if (isNaN(n))
+        return res.status(400).send('Missing Params');
     res.status(200).send('Found ' + formatNum(countPrimeNums(n)) + ' prime numbers under ' + formatNum(n) + '\n');
 });
 
