@@ -256,7 +256,7 @@ This tool allows us to send lots of requests per second to our server to mimic w
 
     Go back to the metrics, and you will find that the CPU usage is decreasing. It will stabilize at around 3% ~ 4%
 
-    And again just like the case of auto-scaling up, the app will auto-scale down if the CPU usage stayed at 5% or less for 60 seconds.
+    And again just like the case of auto-scaling up, according to our auto-scaling rules, the app will auto-scale down if the CPU usage stayed at 5% or less for 60 seconds.
 
     Wait for a few minutes and you should see that the CPU usage increases slightly to 6% ~ 7% which means that the app has down scaled successfully back to 1 instance hence the slight increase of CPU usage
 
