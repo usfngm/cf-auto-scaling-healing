@@ -56,7 +56,7 @@ Before you begin this tutorial, make sure you have the following:
 
 ## Estimated time
 
-- About 30 to 40 minutes
+- About 30 minutes
 
 ## Steps
 
