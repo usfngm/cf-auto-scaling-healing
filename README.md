@@ -13,7 +13,7 @@ In this tutorial, you'll learn how to configure auto-scaling in Cloud Foundry on
 Finally, this tutorial will also test and show how Cloud Foundry self-heals crashed applications. This give developers an idea on how can they utilize Cloud Foundry to better serve their apps. 
 
 ## Table of Contents
-1. [Introduction](#Test-Cloud-Foundry's-auto-scaling-and-self-healing-capabilities-on-IBM-Cloud)
+1. [Introduction](#Test-Cloud-Foundrys-auto-scaling-and-self-healing-capabilities-on-IBM-Cloud)
 2. [Solution](#solution)
 2. [Prerequisites](#Prerequisites)
 3. [Estimated time](#Estimated-time)
@@ -60,10 +60,10 @@ Before you begin this tutorial, make sure you have the following:
 
 ## Steps
 
-1. [Deploy the app on IBM Cloud](#1.-Deploy-the-app-on-IBM-Cloud)
-2. [Test the self-healing feature](#2.-Test-the-self-healing-feature)
-3. [Configure Cloud Foundry auto-scaling](#3.-Configure-Cloud-Foundry-auto-scaling)
-4. [Run the load test and see results on the metrics tab](#4.-Run-the-load-test-and-see-results-on-the-metrics-tab)
+1. [Deploy the app on IBM Cloud](#.-Deploy-the-app-on-IBM-Cloud)
+2. [Test the self-healing feature](#2-Test-the-self-healing-feature)
+3. [Configure Cloud Foundry auto-scaling](#3-Configure-Cloud-Foundry-auto-scaling)
+4. [Run the load test and see results on the metrics tab](#4-Run-the-load-test-and-see-results-on-the-metrics-tab)
 
 
 ### 1. Deploy the app on IBM Cloud 
