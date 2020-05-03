@@ -162,7 +162,7 @@ In this section, we will configure auto-scaling rules then we will load test our
 
     2. Set the first rule:
 
-        If average `cpu` `>=` `20%` for `60` seconds, then *increase* `1` `instance(s)`. Cooldown period `60` seconds.
+        If average `cpu` `>=` `20%` for `60` seconds, then **increase** `1` `instance(s)`. Cooldown period `60` seconds.
 
     3. Set the second rule:
 
