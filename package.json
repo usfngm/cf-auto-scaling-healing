@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/usfngm/cf-auto-scaling-healing.git"
+    "url": "git+https://github.com/usfngm/cf-auto-scaling-self-healing.git"
   },
   "author": "Youssef Negm",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/usfngm/cf-auto-scaling-healing/issues"
+    "url": "https://github.com/usfngm/cf-auto-scaling-self-healing/issues"
   },
-  "homepage": "https://github.com/usfngm/cf-auto-scaling-healing#readme",
+  "homepage": "https://github.com/usfngm/cf-auto-scaling-self-healing#readme",
   "dependencies": {
     "comma-number": "^2.0.1",
     "express": "^4.17.1"

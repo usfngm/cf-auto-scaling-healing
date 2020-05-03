@@ -1,4 +1,4 @@
-# Test Cloud Foundry's self-healing and auto-scaling capabilities on IBM Cloud
+# Test Cloud Foundry's auto-scaling and self-healing capabilities on IBM Cloud
 
 In traditional computing, hardware resources have always been a restriction meaning that, for instance, when a web server receives more requests that it could handle, it simply dies because it is bounded by the hardware resources inside. In today's fast-paced digital world, applications need to constantly respond and adapt to the ever-changing environment we're in.
 
