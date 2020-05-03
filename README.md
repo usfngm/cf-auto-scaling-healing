@@ -60,7 +60,7 @@ Before you begin this tutorial, make sure you have the following:
 
 ## Steps
 
-1. [Deploy the app on IBM Cloud](#.-Deploy-the-app-on-IBM-Cloud)
+1. [Deploy the app on IBM Cloud](#1-Deploy-the-app-on-IBM-Cloud)
 2. [Test the self-healing feature](#2-Test-the-self-healing-feature)
 3. [Configure Cloud Foundry auto-scaling](#3-Configure-Cloud-Foundry-auto-scaling)
 4. [Run the load test and see results on the metrics tab](#4-Run-the-load-test-and-see-results-on-the-metrics-tab)
