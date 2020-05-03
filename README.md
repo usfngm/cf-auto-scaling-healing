@@ -275,6 +275,4 @@ This tool allows us to send lots of requests per second to our server to mimic w
 
 In this tutorial we discussed, configured and tested auto-scaling and self-healing in Cloud Foundry and saw how beneficial they are in today's modern digital world. 
 
-We saw how easy it is to configure Cloud Foundry auto-scaling rules on IBM Cloud and tested it using a load testing tool and saw the auto-scaling as its happening live.
-
-We also tested the self-healing feature that comes out of the box with Cloud Foundry by deliberately crashing our application and watching it as it restarts itself and become responsive once again. 
+We saw how easy it is to configure Cloud Foundry auto-scaling rules on IBM Cloud and tested it using a load testing tool and saw the auto-scaling as its happening live. We also tested the self-healing feature that comes out of the box with Cloud Foundry by deliberately crashing our application and watching it as it restarts itself and become responsive once again. 
