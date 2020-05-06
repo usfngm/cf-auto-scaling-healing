@@ -179,7 +179,7 @@ rules; one for scaling up and another for scaling down.
 
 1. Start the load test:
 
-    loadtest -c 20 --rps 200 -k https://<your-url-here>/?n=1000
+        loadtest -c 20 --rps 200 -k https://<your-url-here>/?n=1000
 
     The `--rps` flag here indicates the requests per second. To stress load your app, you need to send 200 requests per second, asking your app to find how many prime numbers there are between 1 and 1000. For more information about the loadtest tool, see the [loadtest GitHub repo](https://github.com/alexfernandez/loadtest).
 
@@ -221,7 +221,7 @@ rules; one for scaling up and another for scaling down.
 
 1. Run another load test but with 75% less requests per second:
 
-    loadtest -c 20 --rps 50 -k https://<your-url-here>/?n=1000
+        loadtest -c 20 --rps 50 -k https://<your-url-here>/?n=1000
 
     Go back to the metrics, and you will find that the CPU usage is decreasing. It will stabilize at around 3% ~ 4%.
 
