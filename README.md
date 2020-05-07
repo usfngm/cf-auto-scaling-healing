@@ -60,7 +60,7 @@ Before I get started I’d like to point out that the Cloud Foundry lite plan on
 
 1. Target a Cloud Foundry org and space:  
 
-     `ibmcloud target --cf`.
+     `ibmcloud target --cf`
 
 1. If you want, you can change the application name by editing the **name** value in the `manifest.yml` file to your application name. For example, _my-app-name_.
 
